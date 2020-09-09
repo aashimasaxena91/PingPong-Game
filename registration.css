@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #F2F2F2;
+    background-color: #303641;
+    height: 150vh;
+    overflow-x: hidden; 
+}
+
+.header{
+    background-color: black;
+    position: absolute;
+    top:0%;
+    width: 100%;
+}
+
+.heading{
+    text-align: center;
+}
+
+
+#container-register {
+    background-color: #1D1F20;
+    position: relative;
+    margin-left: 30px;
+    top: 15%;
+    display: flex;
+    width: 500px;
+    height: 115vh;
+    border-radius: 0.35em;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+form{
+    margin: 0 auto;
+    padding-left: 50px
+}
+
+#title {
+    position: relative;
+    background-color: #1A1C1D;
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 0.35em;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.lock {
+    position: relative;
+    top: 2px;
+}
+
+.input {
+    margin: auto;
+    width: 400px;
+    border-radius: 4px;
+    background-color: #373b3d;
+    padding: 8px 0px;
+    margin-top: 15px;
+}
+
+.input-addon {
+    float: left;
+    background-color: #373b3d;
+    border: 1px solid #373b3d;
+    padding: 4px 8px;
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+input[type=checkbox] {
+    cursor: pointer;
+}
+
+input[type=text] {
+    color: white;
+    margin: 0;
+    background-color: #373b3d;
+    border: 1px solid #373b3d;
+    padding: 6px 0px;
+    border-radius: 3px;
+}
+
+input[type=text]:focus {
+    border: 1px solid #373b3d;
+    font-weight: bold;
+    color: white;
+}
+
+input[type=password] {
+    color: white;
+    margin: 0;
+    background-color: #373b3d;
+    border: 1px solid #373b3d;
+    padding: 6px 0px;
+    border-radius: 3px;
+}
+
+input[type=password]:focus {
+    border: 1px solid #373b3d;
+    font-weight: bold;
+    color: white;
+}
+
+input[type=email] {
+    color: white;
+    margin: 0;
+    background-color: #373b3d;
+    border: 1px solid #373b3d;
+    padding: 6px 0px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+input[type=email]:focus {
+    border: 1px solid #373b3d;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+.privacy {
+    margin-top: 5px;
+    position: relative;
+    font-size: 12px;
+    bottom: 0%;
+}
+
+.privacy a:link {
+    color: #949494;
+    text-decoration: none;
+}
+
+.privacy a:visited {
+    color: #949494;
+    text-decoration: none;
+}
+
+.privacy a:hover {
+    color: #C1C3C6;
+    transition: color 1s;
+}
+
+*:focus {
+    outline: none;
+}
+
+.remember-me {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.remember-me-login {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.privacy-login {
+    margin-top: 5px;
+    margin-left: 50px; 
+    position: relative;
+    font-size: 12px;
+    bottom: 0%;
+}
+
+.privacy-login a:link {
+    color: #949494;
+    text-decoration: none;
+}
+
+.privacy-login a:visited {
+    color: #949494;
+    text-decoration: none;
+}
+
+.privacy-login a:hover {
+    color: #C1C3C6;
+    transition: color 1s;
+}
+
+input[type=submit] {
+    padding: 6px 25px;
+    background: #373E4A;
+    color: #C1C3C6;
+    font-weight: bold;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.register {
+    padding: 12px 0px 5px 15px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 85%;
+    border-top: 1px solid #C1C3C6;
+}
+
+
+
+#register-link {
+    margin-top: 10px;
+    padding: 6px 25px;
+    background: #373E4A;
+    color: #C1C3C6;
+    font-weight: bold;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#register-link a : hover{
+    background-color: black;
+}
+
+.asset{
+    margin-left: -80px;
+}
+
+.login-svg{
+    margin-left: 10px;
+}
+
